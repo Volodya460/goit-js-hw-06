@@ -14,7 +14,7 @@ const images = [
 ];
 
 const galleryEl = document.querySelector(".gallery");
-galleryEl.classList = "gallery__flex ";
+galleryEl.classList.add('gallery__flex' );
 // console.log(galleryEl);
 
 
