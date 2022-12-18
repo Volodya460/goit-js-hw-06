@@ -5,8 +5,13 @@ const outputNameEl = document.querySelector('#name-output');
 
 
 inputNameEL.addEventListener("input", (event) => {
-  outputNameEl.textContent = event.currentTarget.value;
+  const value = event.target.value.trim();
+  
+  outputNameEl.textContent = value ? value : "Anonymous";
 });
+
+
+
 
 
 
