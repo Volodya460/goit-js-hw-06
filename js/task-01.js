@@ -8,3 +8,4 @@ category.forEach((item) => {
   console.log(`Category:${categoryTitle.textContent}`);
   console.log(`Elements:${categoryList.length}`);
 });
+// `````````````````````````````````111111111112343534----------------------------------
